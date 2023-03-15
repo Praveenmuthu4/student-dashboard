@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 760px;
+  background-color: rgb(214, 214, 214);
 }
 
 .App-logo {
@@ -35,4 +37,155 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Home{
+  margin-top:10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.StudentHome{
+  height: 400px;
+  width: 400px;
+  border: 2px solid;
+  /* border-radius: 50%; */
+  background-color: white;
+}
+.Students{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 600px;
+}
+.mentorCard{
+  background-color: white;
+  border-radius: 10px;
+}
+.studentHeading{
+  display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.withClasses{
+  height: 100%;
+  width:40%;
+  flex-wrap: wrap;  
+}
+.withoutClass{
+  margin-top: 2%;
+  height: 100%;
+  width:40%;
+  flex-wrap: wrap;  
+  background-color: white;
+  border-radius: 10px;  
+}
+.classtoggle{
+  height: 100%;
+  width:80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;  
+}
+.ClassDetails{
+  width:100%;
+  height: auto;
+  margin-top: 3%;
+}
+
+.formdata{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  width: 500px;
+  margin-top:2%;
+  margin-left:30%;
+}
+.ClassSelection{
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.EachClassOutLine{
+  height: min-content;
+  width: auto;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.Details{
+  margin-top: 10%;
+  margin-left: 30%;
+  height: auto;
+  width: 500px;
+  border: 2px solid;
+}
+
+.Mentors{
+  margin-left: 15%;
+  height: 1000px;
+  width: 1000px;
+}
+
+.mentorsStudents{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+
+.webdevelopment{
+  margin: 5%;
+}
+.fullstackdevelopmet{
+  width: 600px;
+  margin: 5%;
+}
+.MentorStudent{
+  height: 100%;
+  width: 500px;
+  margin-left: 5%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;  
+}
+.MentorBtn{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+.Students{
+  height: min-content;
+}
+.mentorsBack{
+background-color: white;
+height: min-content;
+width: auto;
+border-radius: 10px;
+}
+.Mentor{
+  height: 100%;
+  width:80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;  
+}
+img{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
 }
