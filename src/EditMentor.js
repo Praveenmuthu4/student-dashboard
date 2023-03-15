@@ -17,7 +17,7 @@ export function EditMentor() {
   console.log(data);
   let [mentorName, setname] = useState(data.mentorName);
   let [age, setage] = useState(data.age);
-  let [address, setAddress] = useState(data.address);
+let [profession,setProfession] = useState(data.profession);
   let [Course, setCourse] = useState(data.Course);
   let [Id, Setid] = useState(data.id);
   const EditData = {

@@ -25,7 +25,6 @@ export default function AddMentor() {
   const newMentor = {
     mentorName,
     Age,
-    address,
     profession,
     student,
     Course,
