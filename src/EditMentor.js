@@ -17,13 +17,12 @@ export function EditMentor() {
   console.log(data);
   let [mentorName, setname] = useState(data.mentorName);
   let [age, setage] = useState(data.age);
-let [profession,setProfession] = useState(data.profession);
+  let [profession, setProfession] = useState(data.profession);
   let [Course, setCourse] = useState(data.Course);
   let [Id, Setid] = useState(data.id);
   const EditData = {
     mentorName,
     age,
-    address,
     profession,
     Course,
     id: Id,

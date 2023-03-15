@@ -46,13 +46,6 @@ export function EditStudent() {
     <form className="formdata">
       <b>{`EDIT DETAILS OF ${data.name}`}</b>
       <br></br>
-      <TextField
-        onKeyUp={(e) => setProfession(e.target.value)}
-        id="outlined-basic"
-        label="Profession"
-        variant="outlined"
-      />
-      <br></br>
       <FormControl>
         <FormLabel id="demo-row-radio-buttons-group-label">COURSE</FormLabel>
         <RadioGroup
